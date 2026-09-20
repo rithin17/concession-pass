@@ -1,21 +1,16 @@
-TransitPass — Digital Concession Pass
+# React + Vite
 
-A web-based digital concession pass system that replaces the traditional paper pass with an instant, QR-verified digital one.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-🔗 Live app: concession-pass.web.app
+Currently, two official plugins are available:
 
-Overview
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Commuters apply for a concession pass online, get verified, and receive a digital pass instantly — no printing, no lamination, no counter visits. Each pass carries a unique QR code that staff can scan to confirm validity in real time.
+## React Compiler
 
-Features
-Instant QR Validation — scan once, status shows immediately
-Same-Day Issuance — passes generated the moment approval clears
-Auto-Renewal Alerts — reminders before a pass lapses
-Fraud-Resistant Digital ID — each pass tied to a unique record
-Real-Time Status — active, expired, or pending, always visible
-Malayalam Language Option — switch the entire app to Malayalam with one tap
-Tech Stack
-Frontend: Responsive web app (HTML/CSS/JS)
-Hosting: Firebase Hosting
-Data: Cloud-backed records for pass status and renewals
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
